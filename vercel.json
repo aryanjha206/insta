@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/index.py": {
+      "memory": 512
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "api/index.py" }
+  ]
+}
+
